@@ -4,7 +4,7 @@ const Banner = (props) => (
     <section id="banner" className="major">
         <div className="inner">
             <header className="major">
-                <h1>Quality, Creativity, and Client satisfaction</h1>
+                <h2>Quality, Creativity, and Client satisfaction</h2>
             </header>
             <div className="content">
                 <p>Partner with VEXA and experience the power of digital marketing and video production done right. 
