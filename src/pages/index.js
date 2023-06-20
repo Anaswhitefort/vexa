@@ -31,15 +31,15 @@ class HomeIndex extends React.Component {
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
-                                <h3>Aliquam</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>Promotional & Commercials Videos</h3>
+                                <p>Bring marketing and filmmaking expertise to produce compelling promotional and brand awareness videos</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
-                                <h3>Tempus</h3>
-                                <p>feugiat amet tempus</p>
+                                <h3>Digital Advertising</h3>
+                                <p>Vexa helps your right audience using paid advertising, on platforms like YouTube, Facebook, Snapchat, Tiktok and Instagram.</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
