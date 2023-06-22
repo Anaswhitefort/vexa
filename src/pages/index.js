@@ -39,7 +39,7 @@ class HomeIndex extends React.Component {
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
                                 <h3>Digital Advertising</h3>
-                                <p>Vexa helps your right audience using paid advertising, on platforms like YouTube, Facebook, Snapchat, Tiktok and Instagram.</p>
+                                <p>Vexa helps you to reach right audience using paid advertising, on platforms like YouTube, Facebook, Snapchat, Tiktok and Instagram.</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
