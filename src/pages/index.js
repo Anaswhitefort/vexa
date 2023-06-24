@@ -45,22 +45,22 @@ class HomeIndex extends React.Component {
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
-                                <h3>Magna</h3>
-                                <p>Lorem etiam nullam</p>
+                                <h3>Creative & Branding</h3>
+                                <p>Our goal is to help your business create a strong brand identity that sets it apart from competitors and connects with customers on a deeper level.</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
-                                <h3>Ipsum</h3>
-                                <p>Nisl sed aliquam</p>
+                                <h3>Website Development</h3>
+                                <p>As a premier Website Development Company in Abu Dhabi, we specialize in creating highly converting websites. Our team crafts visually appealing and user-friendly sites that serve as powerful silent salespeople for your brand. </p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic05})`}}>
                             <header className="major">
-                                <h3>Consequat</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>E-Commerce Development</h3>
+                                <p>We offer end-to-end e-commerce solutions that include everything from website design and development to payment gateway integration and product management.</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
