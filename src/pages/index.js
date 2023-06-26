@@ -75,7 +75,7 @@ class HomeIndex extends React.Component {
                     <section id="two">
                         <div className="inner">
                             <header className="major">
-                                <h2>Vexa.ae</h2>
+                                <h2>VEXA.AE</h2>
                             </header>
                             <p>Unlock the Full Potential of Your Business with Our Expert Digital Marketing Services in Abu Dhabi</p>
                             <ul className="actions">
