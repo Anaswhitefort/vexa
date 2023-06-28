@@ -78,7 +78,7 @@ class HomeIndex extends React.Component {
                             <header className="major">
                                 <h2>VEXA.AE</h2>
                             </header>
-                            <p>Unlock the Full Potential of Your Business with Our Expert Digital Marketing Services in Abu Dhabi</p>
+                            <p>PARTNER WITH VEXA AND EXPERIENCE THE POWER OF DIGITAL MARKETING AND VIDEO PRODUCTION DONE RIGHT. LET US HELP YOU ELEVATE YOUR BRAND, ENGAGE YOUR AUDIENCE, AND ACHIEVE REMARKABLE SUCCESS IN THE DIGITAL LANDSCAPE.</p>
                             <ul className="actions">
                                 <li><Link to="/landing" className="button next">Contact Us</Link></li>
                             </ul>
