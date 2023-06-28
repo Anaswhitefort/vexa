@@ -1,4 +1,5 @@
 import React from 'react';
+import useDeviceDetect from "../components/useDeviceDetect.js";
 
 const VideoBanner = () => {
   const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
