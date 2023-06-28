@@ -1,5 +1,5 @@
 import React from 'react';
-
+import vexa from '../assets/images/vexa.mp4'
 const VideoBanner = () => {
   return (
     <div className="video-banner">
