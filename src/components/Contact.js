@@ -1,10 +1,44 @@
 import React from 'react'
+import axios from "axios";
+import { Link } from "gatsby"
 
-const Contact = (props) => (
+const MyForm = () => {
+
+    const [serverState, setServerState] = useState({
+      submitting: false,
+      status: null
+    });
+    const handleServerResponse = (ok, msg, form) => {
+      setServerState({
+        submitting: false,
+        status: { ok, msg }
+      });
+      if (ok) {
+        form.reset();
+      }
+    };
+    const handleOnSubmit = e => {
+      e.preventDefault();
+      const form = e.target;
+      setServerState({ submitting: true });
+      axios({
+        method: "post",
+        url: "https://getform.io/f/https://getform.io/f/881e2908-a5d7-4760-baa9-0348a2987c6c",
+        data: new FormData(form)
+      })
+        .then(r => {
+          handleServerResponse(true, "Thanks!", form);
+        })
+        .catch(r => {
+          handleServerResponse(false, r.response.data.error, form);
+        });
+    };
+    return (
+
     <section id="contact">
         <div className="inner">
             <section>
-                <form method="post" action="#">
+                 <form onSubmit={handleOnSubmit}>
                     <div className="field half first">
                         <label htmlFor="name">Name</label>
                         <input type="text" name="name" id="name" />
@@ -23,6 +57,17 @@ const Contact = (props) => (
                     </ul>
                 </form>
             </section>
+    );
+  };
+
+  export default MyForm;
+
+
+
+
+
+const Contact = (props) => (
+
             <section className="split">
                 <section>
                     <div className="contact-method">
