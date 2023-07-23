@@ -1,8 +1,9 @@
 import React from 'react'
 
-
-const Contact = (props) => {
-
+const Contact = (props) => (
+    <section id="contact">
+        <div className="inner">
+           
             <section className="split">
                 <section>
                     <div className="contact-method">
@@ -30,5 +31,6 @@ const Contact = (props) => {
             </section>
         </div>
     </section>
-};
-export default Contact;
+)
+
+export default Contact
