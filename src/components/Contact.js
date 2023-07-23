@@ -60,7 +60,6 @@ const MyForm = () => {
     );
   };
 
-  export default MyForm;
 
 
 
@@ -97,4 +96,5 @@ const Contact = (props) => (
     </section>
 )
 
-export default Contact
+export default MyForm;
+export default Contact;
