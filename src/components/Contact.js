@@ -35,8 +35,6 @@ const Contact = (props) => {
 
    };
 
-
-
 return (
     <section id="contact">
         <div className="inner">
@@ -88,5 +86,6 @@ return (
         </div>
     </section>
 )
+};
 
 export default Contact
