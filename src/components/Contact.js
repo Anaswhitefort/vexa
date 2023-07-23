@@ -59,13 +59,13 @@ const MyForm = () => {
             </section>
     );
   };
+export default MyForm;
 
 
 
 
 
-
-const Contact = (props) => (
+const Contact = (props) => {
 
             <section className="split">
                 <section>
@@ -94,7 +94,5 @@ const Contact = (props) => (
             </section>
         </div>
     </section>
-)
-
-export default MyForm;
+};
 export default Contact;
