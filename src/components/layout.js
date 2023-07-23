@@ -6,6 +6,7 @@ import Header from './Header'
 import Menu from './Menu'
 import Contact from './Contact'
 import Footer from './Footer'
+import MyForm from './Myform'
 
 class Layout extends React.Component {
     constructor(props) {
@@ -43,6 +44,7 @@ class Layout extends React.Component {
                 <div id="wrapper">
                     <Header onToggleMenu={this.handleToggleMenu} />
                     {children}
+                    <Myform />
                     <Contact />
                     <Footer />
                 </div>
