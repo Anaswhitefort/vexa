@@ -57,6 +57,8 @@ const MyForm = () => {
                     </ul>
                 </form>
             </section>
+     </div>
+    </section>
     );
   };
 export default MyForm;
